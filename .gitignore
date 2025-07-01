@@ -1,0 +1,55 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.*.local
+
+# OS tiedostot
+.DS_Store
+Thumbs.db
+
+# Coverage-raportit
+coverage/
+*.lcov
+
+# VSCode-projekti
+.vscode/
+
+# Build-output (esim. TypeScript)
+dist/
+build/
+
+# npm/yarn lock files (jos käytät molempia, valitse vain toinen)
+# package-lock.json
+# yarn.lock
+
+# Testitulokset
+test-output/
+
+# Temporary files
+*.swp
+*.swo
+.tmp/
+
+# PM2 process files
+pids
+*.pid
+*.seed
+
+# TypeScript
+*.tsbuildinfo
+
+# Prisma (jos käytössä)
+prisma/dev.db
+prisma/dev.db-journal
+
+# ESLint cache
+.eslintcache
